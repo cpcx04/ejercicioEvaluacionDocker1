@@ -1,0 +1,50 @@
+h1 {
+    color: #7B7777;
+}
+
+.btn-gray {
+    background-color: #c4c4c4;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    --bs-btn-hover-bg: darkgray;
+}
+
+i {
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+th {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.side-margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.btn{
+    padding: 10px;
+}

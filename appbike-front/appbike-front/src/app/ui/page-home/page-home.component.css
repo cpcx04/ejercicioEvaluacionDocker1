@@ -1,0 +1,42 @@
+.background-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.bg-image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../assets/img/homePageBackground.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  text-decoration: none; /* Para eliminar subrayado en el enlace */
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* Para que los elementos se apilen verticalmente */
+}
+
+.text-container {
+  margin-bottom: 20px;
+}
+.interBold{
+  font-family: 'Inter-Bold',sans-serif;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url("../../../assets/fonts/static/Inter-Bold.ttf");
+}
+.card {
+  background-color: #DDDDDD;
+}
